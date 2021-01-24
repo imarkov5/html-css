@@ -4,8 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" media="screen and (max-width:1024px)" href="/mobile.css">
 </head>
 <body>
-    
+    <header>
+        <div id="navbar">
+            <h1>Irina Markov</h1>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/gallery.html">Gallery</a></li>
+                <li><a class="current" href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="contact">
+        <h2>Contact me</h2>
+            <form action="#">
+                <div>
+                    <input type="text" id="name" name="name" placeholder="Name">
+                </div>
+                <div>
+                    <input type="email" name="email" id="email" placeholder="Email address">
+                </div>
+                <div>
+                    <input type="text" name="subject" id="subject" placeholder="Subject">
+                </div>
+                <div>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                </div>
+                <button>Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+    </section>
+    <footer id="s-media">
+        <a href="https://github.com/imarkov5" target="_blank"><img src="/images/github.png" alt="github icon"></a>
+        <a href="https://www.linkedin.com/in/irina-markov-4623721b1/" target="_blank"><img src="/images/linkedin.png" alt="clock icon"></a>  
+        <a href="https://www.facebook.com/irina.tenmarkov" target="_blank"><img src="/images/facebook.png" alt="navigation icon"></a>
+        <a href="mailto:irina@aquilatech.com" target="_blank"><img src="/images/email.png" alt="sinc icon"></a> 
+    </footer>
+     
 </body>
 </html>

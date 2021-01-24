@@ -1,0 +1,29 @@
+#navbar h1{
+    float: none;
+    text-align: center;
+}
+#navbar ul, #navbar ul li{
+    float: none;
+    padding: 10px;
+}
+#navbar ul li a{
+    border-top: 1px dotted #444;
+    padding: 15px;
+}
+#section-1 img{
+    width: 100%;
+    display: block;
+}
+#section-2 div{
+    float: none;
+    width: 100%;
+    height: 100%;
+}
+#contact input, textarea{
+    width: 80%;
+}
+#section-1 .img1, #section-1 .img2{
+    padding-top: 10px;
+    float: none;
+    width: 100%;
+}
