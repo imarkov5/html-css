@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1a1a1a;
+}
+#navbar{
+    overflow:auto;
+}
+#navbar h1{
+    float: left;
+    padding: 40px;
+    color: #e27a2b;
+}
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+#navbar ul li{
+    display: block;
+    padding: 40px;  
+    float: left;  
+}
+#navbar ul li a:hover, #navbar ul li a.current{
+    color:#c87128;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: #9d9fa1;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+#section-1 .img1{
+    float: left;
+    width: 50%;
+}
+#section-1 .img2{
+    float: right;
+    width: 50%;
+}
+#section-1{
+    background-color: #060606;
+    padding: 40px 20px;
+}
+#section-1 .about{
+    padding: 20px;
+}
+#section-1 .about h2{
+    margin-top: 20px;
+}
+#section-1 h2, p{
+    color: #e0e0e0;
+    font-weight: normal;
+    font: 20px;
+    padding: 15px;
+}
+#section-1 button{
+    color: white;
+    background: linear-gradient(#f08b40, #f1944e, #f0883c);
+    font-size: 20px;
+    border-radius: 10px;
+    border-style: hidden;
+    padding: 10px 25px;
+    margin: 5px 20px 25px 46px;
+}
+#section-2{
+    padding: 20px 40px;
+}
+#section-2 h1{
+    color: #d0dee6;
+    vertical-align: top;
+    font-size: 25px;
+    padding: 40px 0px;
+}
+#section-2 div{
+    width: 23.72%;
+    height: 550px;
+    float:left;
+    text-align: center;
+    padding: 20px 5px;
+}
+#section-2 div a{
+    color: #e57428;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0px;
+}
+#section-2 p{
+    color: #afb2b8;
+    font-size: 14px;
+    margin-top: 20px;
+}
+#section-2 img{
+    border: 5px solid #363636;
+    width: 90%;
+    margin-bottom: 20px;
+}
+#contact{
+    text-align: center;
+}
+#contact h2{
+    color: #d0dee6;
+    vertical-align: top;
+    font-size: 25px;
+    padding: 40px 0px;
+}
+#contact input, textarea, button{
+    padding: 10px;
+    margin: 20px;
+    color: #d0dee6;
+    font-weight: bold;
+    border-radius:10px;
+    border-style:double;
+}
+#contact input, textarea{
+    width: 30%;
+}
+#contact button{
+    transition-duration: 0.2s;
+}
+#contact button:hover{
+    background-color: #c87128;
+}
+#s-media{
+    padding: 100px 40px;
+    text-align: center;
+}
+#s-media img{
+    margin-right: 20px;
+}
